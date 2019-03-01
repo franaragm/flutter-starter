@@ -1,16 +1,17 @@
-# starter
+# Flutter Starter
 
-A new Flutter project.
+A lightweight, scalable flutter project for start developing app using BloC pattern
 
-## Getting Started
+## What's inside?
 
-This project is a starting point for a Flutter application.
+- Base folder structure which can easily scalable
+- Included some libs that every app needs: `shared_preferences` for storing key-value pair data, `connectivity` for getting network state and `flutter_bloc` for managing app state
+- A counter example with BloC pattern
 
-A few resources to get you started if this is your first Flutter project:
+## Author
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+- scitbiz ([Github](https://github.com/nikhilpanju))
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Bugs/Requests
+
+- If you encounter any problems feel free to open an issue. If you feel the library is missing a feature, please raise a ticket on Github. Pull request are also welcome.
