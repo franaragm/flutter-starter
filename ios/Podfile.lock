@@ -25,11 +25,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/shared_preferences/ios"
 
 SPEC CHECKSUMS:
-  connectivity: d5992e3758d68b1c4b12d6e012fe0813f1aa1645
-  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  connectivity: c72716e202a1225ec4810740d5cb56b8ae3bf4cc
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  shared_preferences: 5a1d487c427ee18fcd3ea1f2a131569481834b53
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
 
 PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

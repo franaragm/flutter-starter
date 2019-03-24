@@ -1,6 +1,5 @@
 import 'package:bloc/bloc.dart';
-
-enum CounterEvent { increment, decrement }
+import 'package:starter/blocs/counter/counter_event.dart';
 
 class CounterBloc extends Bloc<CounterEvent, int> {
   @override
@@ -20,6 +19,5 @@ class CounterBloc extends Bloc<CounterEvent, int> {
   }
 
   void increment() => dispatch(CounterEvent.increment);
-
   void decrement() => dispatch(CounterEvent.decrement);
 }

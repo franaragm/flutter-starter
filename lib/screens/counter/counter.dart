@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:starter/screens/counter/counter_bloc.dart';
+import 'package:starter/blocs/counter/counter.dart';
 
 class CounterPage extends StatelessWidget {
-  CounterBloc _bloc = CounterBloc();
+  final CounterBloc _bloc = CounterBloc();
 
   @override
   Widget build(BuildContext context) {
@@ -15,9 +15,7 @@ class CounterPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
+            Text('You have pushed the button this many times:'),
             BlocBuilder<CounterEvent, int>(
               bloc: _bloc,
               builder: (context, value) {
