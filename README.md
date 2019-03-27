@@ -10,7 +10,7 @@ A lightweight, scalable flutter project for start developing app using BloC patt
 
 ## Author
 
-- scitbiz ([Github](https://github.com/nikhilpanju))
+- scitbiz ([Github](https://github.com/scitbiz))
 
 ## Bugs/Requests
 
